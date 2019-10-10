@@ -1,0 +1,124 @@
+body{
+    background-color: #e9ebee;
+    /* background-color:#424242; */
+  }
+  .cust{
+    background-color:#4c7fb8;  
+  }
+  .cust-text{
+    color:#4c7fb8;;
+  }
+  .cust_title {
+    font-size: 16px;
+  }     
+    .cust_tabs {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      position: relative;
+      height: 48px;
+      background-color: #fff;
+      margin: 0 auto;
+      width: 100%;
+      white-space: nowrap; }
+      .cust_tabs .cust_tab  {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        display: block;
+        float: left;
+        text-align: center;
+        line-height: 48px;
+        height: 48px;
+        padding: 0 20px;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: .8px;
+        width: 15%; }
+        .cust_tabs .cust_tab a {
+          color: #222;
+          display: block;
+          width: 100%;
+          height: 100%;
+          transition:letter-spacing  .28s ease;
+        }
+        .cust_tabs .cust_tab a:hover {
+            letter-spacing: 3px;
+            color: #000; 
+            /* border-bottom:2px solid #4c7fb8; */
+        }
+
+        .cust_tabs .cust_tab .on_active {
+          border-bottom:2px solid #4c7fb8;
+        }
+
+        .cust_tabs .cust_tab {
+          padding: 0; }
+      
+        .popUpSubCategories{
+          position:fixed;
+          width:20%;
+          height:60%;
+          top:25%;
+          right:1%;
+          overflow-y: auto;
+          z-index: 999;
+          background:white;
+          border-radius:20px;
+      
+        }
+        .popUpSubCategories .li {
+          clear: both;
+          color: rgba(0, 0, 0, 0.87);
+          cursor: pointer;
+          line-height: 1.5rem;
+          width: 100%;
+          text-align: center;
+          text-transform: none;
+        }
+        
+        .popUpSubCategories .li:hover{
+        
+        }
+        .popUpSubCategoriest li > a {
+          font-size: 1.2rem;
+          color: #26a69a;
+          display: block;
+          padding: 1rem 1rem; }
+
+      
+        .sub_cat{
+          display:none;
+        }
+        .active_category{
+          display:block;
+        }
+        
+        .cust_cat{
+          font-size: 1.2rem;
+          color: #000;
+          display: block;
+          padding: 1rem 1rem; 
+        }
+        .cust_active {
+          background-color :#e9ebee;
+        }
+        .cust_cat:hover{
+          letter-spacing: 3px;
+        
+        }
+        
+        .attachImgOnBg{
+            
+            width:100%; 
+            height:200px; 
+            margin:0 auto;
+            background-repeat:repeat;
+            background-size:contain; 
+            background-position:center;
+            background-color:grey;
+
+        }
