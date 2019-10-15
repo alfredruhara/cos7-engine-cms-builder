@@ -8,6 +8,10 @@
     $active_menu_id = 1997;
     $self  = '?vl='.$systemListArt->cursor('article')['index']['out'] ?? '';
     
+    echo '<pre>';
+    var_dump($menus);
+    echo '</pre>';
+
     if(isset($_GET['search']))
     {
         if ($_GET['search'] != '')

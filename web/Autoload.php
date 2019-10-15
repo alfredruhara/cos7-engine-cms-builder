@@ -15,7 +15,9 @@ class Autoload{
     {
         $class = str_replace(__NAMESPACE__.self::DS, '', $class);
         $class = str_replace('\\', self::DS , $class);
-        require dirname(__DIR__).self::DS.$class.'.php';
+        
+        //require dirname(__DIR__).self::DS.$class.'.php';  - Linux/ Unix 
+        require __DIR__.'/'.$class.'.php';
               
     }
 
